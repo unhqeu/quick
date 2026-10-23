@@ -64,8 +64,8 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 0;
-    padding: 10px;
+    min-height: 650px;
+    padding: 35px 10px;
     margin: 0 auto;
 }
 
@@ -310,6 +310,6 @@ function finishGame() {
 
 components.html(
     html_code,
-    height=800,
-    scrolling=True
+    height=950,
+    scrolling=False
 )
