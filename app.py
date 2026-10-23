@@ -1,4 +1,14 @@
 
+import streamlit as st
+import streamlit.components.v1 as components
+
+st.set_page_config(
+    page_title="반응속도 테스트",
+    layout="wide"
+)
+
+html_code = r"""
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -255,3 +265,11 @@
 
 </body>
 </html>
+
+"""
+
+components.html(
+    html_code,
+    height=650,
+    scrolling=True
+)
