@@ -186,7 +186,7 @@ html_code = r"""
       game.classList.remove("green");
       game.textContent = "";
 
-      const randomTime = 2000 + Math.random() * 3000;
+      const randomTime = 1500 + Math.random() * 2500;
 
       timer = setTimeout(function() {
         phase = "green";
