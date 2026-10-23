@@ -310,6 +310,6 @@ function finishGame() {
 
 components.html(
     html_code,
-    height=850,
+    height=800,
     scrolling=True
 )
